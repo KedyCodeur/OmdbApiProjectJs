@@ -1,0 +1,25 @@
+    <div class="header_burger header_burger_hide header">
+            <nav>
+                <ul>
+                    <li class="show_mobil"><a href="index.html">Accueil</a></li>
+                    <li class="show_mobil" ><a href="search.html">Rechercher</a></li>
+                    <li class="show_mobil" ><a href="contact.html">Contact</a></li>
+                    <li class="theme_liste_clair show_mobil"><div ><button class="theme_button_clair show_mobil " id="theme_change"></button></div></li>
+                </ul>
+            </nav>
+
+    </div>
+
+    <header class="header">
+        <img src="logo.png"   alt="Logo du Cinéma Livcén" class="important">
+        <nav class="important">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="search.html">Rechercher</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="theme_liste_clair"><div><button class="theme_button_clair" id="theme_change"></button></div></li>
+                <li class="burger_icon_list show_mobil"><button id="button_menu_burger"></button></li>
+            </ul>
+        </nav>
+        
+    </header>

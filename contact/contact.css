@@ -1,0 +1,176 @@
+
+.container_question{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.question_bar{
+    position: relative;
+    width: 80%;
+    background-color: lightblue;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+.question_bar:hover{
+    cursor: pointer;
+}
+
+.response_bar{
+    width: 80%;
+    background-color: lightblue;
+    height:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    color: transparent;
+    font-size: 1em;
+    text-align: center;
+    
+}
+.grandir{
+    height: 8rem;
+    transition: 1s;
+    display: flex;
+    font-size: 1em;
+    color: black;
+    padding: 1rem;
+}
+.base{
+    height: 0rem;
+    transition: 1s;
+}
+
+.titre{
+    font-size: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px gray;
+    font-weight: 900;
+    margin: 25px 0;
+    text-align: center;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+form h3{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.carte{
+    margin: 40px 0;
+    width: 80%;
+    height: auto;
+    padding: 6rem 0;
+    background-color: whitesmoke;
+    filter: drop-shadow(1px 1px 1px gray);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.carte input{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 4rem;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+
+}
+
+.carte textarea{
+    padding: 10px 15px;
+    filter: drop-shadow(1px 1px 1px black);
+    border-radius: 10px;
+    width: 80%;
+    height: 10rem;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.carte button{
+    margin-top: 40px;
+    background-color: lightblue;
+    font-size: 2em;
+    width: 70%;
+    height: 5rem;
+    border-radius: 10px;
+}
+.carte button{
+    cursor: pointer;
+}
+.note{
+    font-weight: 900;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .carte{
+        padding: 4rem 0;
+    }
+    .carte input,.carte textarea{
+        font-size: 1em;
+        height: 3rem;
+    }
+    .titre{
+        font-size: 1.5em;
+        
+    }
+    form h3{
+        font-size: 1.5em;
+    }
+
+    .carte button{
+        height: 4rem;
+        font-size: 1.5em;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .carte{
+        padding: 3rem 1rem;
+    }
+    .carte input,.carte textarea{
+        font-size: 0.8em;
+        height: 2.3rem;
+    }
+    .titre{
+        font-size: 1.1em;
+    }
+    form h3{
+        font-size: 1.2em;
+    }
+
+    .carte button{
+        height: 2.4rem;
+        font-size: 1.2em;
+    }
+
+
+}

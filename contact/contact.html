@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="KedyCodeur">
+    <meta name="description" content="Livcén, la seule et la meilleure cinéma de VillageA, offrant les meilleurs films et divertissements pour tous.">
+    <title>Livcén</title>
+    <link rel="stylesheet" href="/contact/contact.css">
+    <link rel="stylesheet" href="/navbar/navbar.css">
+    <link rel="stylesheet" href="/footer/footer.css">
+</head>
+<body>
+    <div class="header_burger header_burger_hide header">
+            <nav>
+                <ul>
+                    <li class="show_mobil"><a href="/index/index.html">Accueil</a></li>
+                    <li class="show_mobil" ><a href="/search/search.html">Rechercher</a></li>
+                    <li class="show_mobil" ><a href="/contact/contact.html">Contact</a></li>
+                    <li class="theme_liste_clair show_mobil"><div ><button class="theme_button_clair show_mobil theme_change" > </button></div></li>
+                </ul>
+            </nav>
+
+    </div>
+
+    <header class="header">
+        <h1><img src="/assets/logo.png"  alt="Logo du Cinéma Livcén" class="important logo">
+        <span style="display: none;">Livcén</span>
+        </h1>
+        <nav class="important">
+            <ul>
+                <li><a href="/index/index.html">Accueil</a></li>
+                <li><a href="/search/search.html">Rechercher</a></li>
+                <li><a href="/contact/contact.html">Contact</a></li>
+                <li class="theme_liste_clair"><div><button class="theme_button_clair theme_change" aria-label="Changer le thème" > </button></div></li>
+                <li class="burger_icon_list show_mobil"><button id="button_menu_burger" aria-label="Menu"> </button></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+    <span id="faq">Contact</span>
+    <div class="container_question">
+            <h2 class="titre titre_index" >Les Question Les Plus Posées</h2>
+            <div class="question_bar">
+                <p>Quels films sont à l’affiche aujourd’hui ?</p>
+            </div>
+            <div class="response_bar un base">
+                <p>Aujourd’hui, vous pouvez voir : Dune: Part Two, Wonka, Napoleon, The Marvels et Wish.</p>
+            </div>
+            
+            <div class="question_bar">
+                <p>Quels sont les horaires des séances ?</p>
+            </div>
+            <div class="response_bar deux base">
+                <p>Les séances sont généralement à 11h00, 13h30, 16h00, 18h45 et 21h30.</p>
+            </div>
+
+            <div class="question_bar">
+                <p>Quels sont les tarifs des billets ?</p>
+            </div>
+            <div class="response_bar trois base ">
+                <p>Adulte : 12€, Étudiant : 9€, IMAX : 18€, 3D : +2€ pour les lunettes.</p>
+            </div>
+
+            <div class="question_bar ">
+                <p>Puis-je choisir ma place ?</p>
+            </div>
+            <div class="response_bar quatre base ">
+                <p>Oui, la sélection de siège est disponible via le plan interactif de la salle.</p>
+            </div>
+
+    </div>
+    
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <h2 class="titre titre_index">Vous Avez D'autres Questions ?</h2>
+        <input type="hidden" name="access_key" value="52f15643-f1f4-4170-94d8-3510a07159c5">
+        <div class="carte carte_contact">
+            <h3>Contactez-Nous</h3>
+            <label for="name" style="display: none;">nom</label>
+            <input type="text" placeholder="Nom*" required id="name" name="name">
+            
+            <label for="mail" style="display: none;" >mail</label>
+            <input type="email" name="mail" placeholder="Mail*" required id="mail">
+
+            <label for="message" style="display: none;">Message</label>
+            <textarea name="message" placeholder="Message*" required id="message"></textarea>
+
+            <button type="submit">Submit</button>
+
+            <p class="note" >Les champs marqués d’un * sont obligatoires.</p>
+
+        </div>
+    </form>
+    </main>
+    <footer>
+              
+        <nav>
+            <div class="footer_container">
+                <div class="contact">
+                    <h3>Contacte</h3>
+                    <address><a href="https://maps.app.goo.gl/3ziYDVZ1ixHRYpip9">40 Rue du Dr Roux, 75015 Paris</a></address>
+                    <a href="tel:0650619333">+33 0650619333</a>
+                    <a href="mailto:cemsahozdemirel791@gmail.com">cemsahozdemirel791@gmail.com</a>
+                </div>
+                <div class="navigation">
+                    <h3>Liens Utiles</h3>
+                    <a href="/contact/contact.html">Contact</a>
+                    <a href="/search/search.html">Rechercher</a>
+                    <a href="/index/index.html#trends">Les films de la semaine</a>
+                    <a href="/error/404.html">Mention Legales</a>
+                    <a href="/contact/contact.html#faq">FAQ</a>
+                </div>
+                <div class="social">
+                    <h3>Réseaux Sociaux</h3>
+                    <div class="social_img">
+                        <a href="/error/404.html" class="social_boutton"><img src="/assets/insta.png" alt="le compte d'instagram du Livcén"></a>
+                        <a href="/error/404.html" class="social_boutton"><img src="/assets/facebook.png" alt="le compte de facebook du Livcén"></a>
+                        <a href="/error/404.html" class="social_boutton"><img src="/assets/youtube.png" alt="le compte de youtube du Livcén"></a>
+                        <a href="/error/404.html" class="social_boutton"><img src="/assets/twitter.svg" alt="le compte de twitter du Livcén"></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2025 KedyCodeur. Tous droits réservés.</p>
+         </nav>
+
+         
+    </footer>
+
+    <script src="/contact/contacte.js"></script>
+    <script src="/navbar/navbar.js"></script>
+
+
+</body>
+</html>
