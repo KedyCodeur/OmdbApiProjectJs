@@ -1,4 +1,4 @@
-const key_api="2393e532"
+const key_api="??????"
 //L'ANİMATİON DE SLİDE 
 let film_index=0;
 let count_time=0
